@@ -9,45 +9,65 @@
 
 给出你对它的估值、增长、风险、投资价值的核心判断（多空逻辑）
 
-## 2. Protocol Overview & Token Utility（协议机制与代币功能）
-2.1 协议基本逻辑
-Lido 提供流动性质押服务（ETH → stETH），用户无需运行节点也能获得 staking 收益
+### 2.1 Core Protocol Mechanism
+Lido Finance is the largest liquid staking provider on Ethereum, enabling anyone to stake any amount of ETH and receive stETH in return. Users bypass the technical and financial barriers of solo staking—such as operating a validator and locking 32 ETH—by depositing into Lido’s smart contract. The protocol then delegates these deposits to a set of vetted professional validators selected by the Lido DAO.
 
-协议支持链包括：Ethereum（主力）、Polygon、Solana（已退）、Polkadot、Kusama 等
+In return, users receive stETH, a rebasing token minted 1:1 with the deposited ETH. This token automatically increases in balance daily as staking rewards accumulate, allowing holders to passively earn ETH staking yield while preserving liquidity.
 
-2.2 流动性质押与 stETH 机制
-stETH 的“可组合性”推动了其在 DeFi 中的广泛应用（AAVE、Curve、Balancer、Eigenlayer）
+For DeFi users and protocols that require fixed-balance assets, Lido offers wstETH, a wrapped, non-rebasing version of stETH. wstETH reflects rewards through an increasing exchange rate against ETH. This design gives Lido the flexibility to serve both casual ETH holders and sophisticated DeFi participants.
 
-利用率高 + 市场深度好是其竞争壁垒之一
+📊 [Insert visual: ETH → stETH / wstETH flow diagram]
 
-2.3 LDO 代币用途
-治理（Snapshot 上提案与投票）
+### 2.2 stETH, Composability, and DeFi Adoption
+One of Lido’s defining strengths lies in the broad composability of stETH and wstETH within the Ethereum DeFi ecosystem. These tokens are accepted across over 35 protocols as of mid-2025, ranging from lending markets to DEXs, structured products, and Layer-2 networks.
 
-参数调整（staking费率、节点审批、激励分发）
+stETH is widely used as collateral on Aave and MakerDAO, and supports efficient swaps through Curve’s stETH/ETH pool—one of the deepest in DeFi. Meanwhile, wstETH has become the preferred format for liquidity provisioning on Uniswap and bridging to Layer-2s.
 
-目前无经济分红（部分提案提议引入 revenue-sharing）
+The effect is a powerful feedback loop: as more protocols integrate stETH and wstETH, their utility grows, drawing in more users and reinforcing Lido’s dominance. Even Layer-2s like Linea now auto-stake ETH into stETH for yield, underlining its role as DeFi’s “default staking token.”
 
-3. Market Position & Competitive Landscape（市场地位与竞争格局）
-3.1 市场份额与主导地位
-Lido 占以太坊 staking 市场份额约 30%+，为最大 LSD 协议
+### 2.3 Fee Model and LDO Token Utility
+Lido charges a 10% protocol fee on staking rewards, with 90% going to users. This fee is split between the DAO treasury and node operators (currently 50/50). For example, if Ethereum’s native staking APR is 4%, Lido users receive about 3.6% after fees. The treasury portion funds audits, liquidity incentives, and future development—such as the Curve pool seeding or Lido V3 R&D.
 
-合并前后地位上升，远高于 Coinbase、Rocket Pool 等
+Reward distribution differs by token: stETH auto-compounds by increasing balances daily, while wstETH holds a fixed balance with a rising price. Users can convert between them freely.
 
-ETH staking 总规模的增长带动协议收入增长
+Lido’s governance token, LDO, grants holders decision-making power over the protocol. Via Snapshot, holders can vote on changes such as validator onboarding, treasury allocation, and parameter tuning. However, LDO currently carries no direct claim on revenue—all rewards flow to the DAO. While revenue-sharing proposals have been discussed, no model is live yet as of August 2025.
 
-3.2 主要竞争对手
-Coinbase：合规性强，但资金不能 DeFi 应用
+📊 [Insert: LDO supply, governance activity, or protocol fee flow chart]
 
-Rocket Pool (RPL)：更去中心化，但流动性差、DeFi 效用弱
+## 3. Market Position & Competitive Landscape
+### 3.1 Market Share & Leadership
+Lido controls approximately 8.9–9.0 million ETH staked, representing 24–25% of Ethereum’s staking market as of August 2025. Despite falling from a peak of over 30%, Lido remains far ahead of any individual competitor. Its dominance is driven by first-mover advantage, deep liquidity, and seamless DeFi integrations.
 
-Eigenlayer：Restaking 概念挑战 Lido 的长期地位
+That said, the trend is shifting. Community-led efforts to decentralize staking, paired with the rise of viable alternatives, have caused Lido’s relative share to slip. Nonetheless, its absolute stake volume continues to grow alongside Ethereum’s total staking base, now surpassing 36 million ETH.
 
-frxETH / SSV / Mantle：新兴项目分流潜在增长
+📊 [Insert: Ethereum staking market share pie chart – Lido vs others]
 
-3.3 政策与监管风险
-美国监管对 staking 的态度仍不明朗（SEC vs Coinbase/Lido）
 
-Lido 并未明确规避法律结构（如注册公司等）
+### 3.2 Competitor Landscape
+Coinbase (cbETH) offers a centralized staking service with a focus on retail accessibility. While cbETH is transferable and earns yield, it lacks deep DeFi integration and poses custodial risks. It holds ~2.4M ETH (~6–7% market share).
+
+Rocket Pool (rETH) emphasizes decentralization with hundreds of permissionless node operators. Its ~700k ETH stake (~2% share) is modest but growing. rETH is non-rebasing, DeFi-integrated, and community-driven—attracting users prioritizing decentralization over scale.
+
+Ether.fi (eETH) rapidly gained ~7% share by promoting restaking and non-custodial control via NFT-based credentials. With 2.5M ETH staked, it represents the most successful challenger of 2024–2025. Its appeal lies in high yield, user sovereignty, and airdrop incentives, though questions remain about its validator decentralization.
+
+Frax (frxETH/sfrxETH) employs a two-token system separating liquidity from yield. While small in market share (~0.3%), Frax has made notable design contributions and remains a favorite for DeFi-native strategies.
+
+Mantle (mETH/cmETH) entered the market with a double-yield model backed by BitDAO’s treasury. Its adoption is still early stage, appealing mostly to advanced users within Mantle’s Layer-2 ecosystem.
+
+Additionally, players like Binance, Kraken, and SSV Network round out the landscape. While centralized exchanges retain market share (~8%), infrastructure projects like SSV aim to decentralize validator architecture, which Lido is also exploring through its Staking Router and DVT modules.
+
+📊 [Insert: Comparative table – stETH vs rETH vs cbETH vs eETH etc.]
+
+3.3 Decentralization, Regulation, and Moat
+Lido’s dominance has drawn criticism over centralization. The DAO controls validator selection (currently ~30 operators), and large LDO holders exert considerable influence over governance. To address this, Lido has introduced dual governance (allowing stETH holders to veto proposals) and is testing DVT systems for more distributed validator control.
+
+From a regulatory standpoint, the outlook has improved. In August 2025, the SEC clarified that liquid staking tokens like stETH and rETH are not securities, recognizing them as technical staking receipts rather than investment contracts. This has removed a significant overhang from U.S. market participants.
+
+Despite this, governance tokens like LDO are still under observation. While Lido does not distribute revenue to LDO holders, future fee-sharing mechanisms could raise regulatory questions. For now, Lido’s DAO remains legally unincorporated, governed by tokenholders and executed via multisig.
+
+Finally, Lido’s moat remains strong. Its liquidity depth, early integrations, and DAO treasury continue to give it an edge. stETH is the default in many DeFi applications, and Curve’s stETH/ETH pool alone regularly handles massive volumes with minimal slippage. Competitors may offer better decentralization or yields, but replicating Lido’s ecosystem entrenchment will take time.
+
+👉 [Insert regulatory timeline or summary of key enforcement events here]
 
 4. Tokenomics & Distribution（代币经济模型与分配结构）
 4.1 供应机制
