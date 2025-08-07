@@ -1,101 +1,121 @@
 # Lido-research
 
+## 1. Executive Summary（摘要）
+（建议最后写，浓缩全文）
 
-1. Executive Summary
-简要介绍 Lido 和 LDO
+简要介绍 Lido 是什么、做了什么、为什么重要
 
-当前 Narrative（如：ETH restaking、LRT 赛道爆发、EigenLayer 对接）
+强调它在 ETH 流动性质押市场的垄断地位
 
-报告重点结论（投资观点）
+给出你对它的估值、增长、风险、投资价值的核心判断（多空逻辑）
 
-## 2. What is Lido?
+## 2. Protocol Overview & Token Utility（协议机制与代币功能）
+2.1 协议基本逻辑
+Lido 提供流动性质押服务（ETH → stETH），用户无需运行节点也能获得 staking 收益
 
-Lido is the leading liquid staking protocol on Ethereum, allowing users to stake their ETH without locking assets or maintaining infrastructure. In return, users receive stETH, a tokenized representation of their staked ETH, which can be freely traded or used in DeFi protocols.
+协议支持链包括：Ethereum（主力）、Polygon、Solana（已退）、Polkadot、Kusama 等
 
-### Liquid Staking Explained
+2.2 流动性质押与 stETH 机制
+stETH 的“可组合性”推动了其在 DeFi 中的广泛应用（AAVE、Curve、Balancer、Eigenlayer）
 
-Traditional ETH staking requires users to lock a minimum of 32 ETH and operate a validator node. This presents significant barriers for most participants. Lido removes these constraints by pooling user funds and delegating them to a curated set of node operators, while issuing stETH on a 1:1 basis to represent the staked ETH.
+利用率高 + 市场深度好是其竞争壁垒之一
 
-stETH accrues staking rewards daily and reflects the current value of the staked position, including any gains or losses from staking.
+2.3 LDO 代币用途
+治理（Snapshot 上提案与投票）
 
-### Market Position
+参数调整（staking费率、节点审批、激励分发）
 
-As of mid-2025, Lido is the dominant liquid staking provider on Ethereum, accounting for over 30% of all staked ETH. The protocol manages billions of dollars in assets and plays a central role in Ethereum’s staking economy.
+目前无经济分红（部分提案提议引入 revenue-sharing）
 
-This scale offers strong network effects but also raises concerns about centralization, governance power, and systemic risks related to staking dominance.
+3. Market Position & Competitive Landscape（市场地位与竞争格局）
+3.1 市场份额与主导地位
+Lido 占以太坊 staking 市场份额约 30%+，为最大 LSD 协议
 
-## 3. LDO Token Overview
+合并前后地位上升，远高于 Coinbase、Rocket Pool 等
 
-### 3.1 Token Utility
+ETH staking 总规模的增长带动协议收入增长
 
-The LDO token serves as both a governance and incentive mechanism within the Lido protocol. It enables holders to vote on proposals governing key protocol parameters and is used to reward ecosystem contributors such as developers, stakers, and node operators.
+3.2 主要竞争对手
+Coinbase：合规性强，但资金不能 DeFi 应用
 
-### 3.2 Token Supply & Economics
+Rocket Pool (RPL)：更去中心化，但流动性差、DeFi 效用弱
 
-- **Max Supply**: 1,000,000,000 LDO  
-- **Circulating Supply**: ~880 million LDO (as of August 2025)  
-- **Inflation**: None (fixed supply)  
-- **Vesting**: Initial team and investor allocations were subject to vesting schedules.
+Eigenlayer：Restaking 概念挑战 Lido 的长期地位
 
-### 3.3 Token Allocation
+frxETH / SSV / Mantle：新兴项目分流潜在增长
 
-| Allocation Category     | Percentage | Amount (LDO) | Notes |
-|-------------------------|------------|--------------|-------|
-| DAO Treasury            | 36%        | 360,000,000  | Ecosystem development & incentives |
-| Early Investors         | 22%        | 220,000,000  | Vested over time |
-| Team & Founders         | 20%        | 200,000,000  | Vested gradually |
-| Node Operators          | 6.5%       | 65,000,000   | Operator incentives |
-| Liquidity Mining        | 15%        | 150,000,000  | Early liquidity programs |
+3.3 政策与监管风险
+美国监管对 staking 的态度仍不明朗（SEC vs Coinbase/Lido）
 
+Lido 并未明确规避法律结构（如注册公司等）
 
+4. Tokenomics & Distribution（代币经济模型与分配结构）
+4.1 供应机制
+固定总量：1,000,000,000 LDO
 
+当前流通：约 890–900M（90%），无新锁仓计划
 
-4. On-Chain Data & Protocol Metrics
-TVL（stETH 数量 + ETH 价格趋势）
+没有增发机制（通缩或回购机制未明确）
 
-活跃用户地址（etherscan / dune）
+4.2 初始分配 vs 当前结构
+初始分配：DAO Treasury（36%）、早期投资人（22%）、团队（20%）、节点（6.5%）、挖矿激励（15%）
 
-stETH/ETH 折价趋势
+当前结构（参考 Dune）：大部分已解锁，Treasury 持币仍占比较高；治理投票活跃地址少
 
-wstETH 占比 vs stETH
+4.3 DAO Treasury 管理现状
+Treasury 地址仍持有约 100M+ LDO
 
-用 Dune / Token Terminal 插图
+用于未来激励、流动性支持、生态资助、运营成本
 
-5. Narrative Analysis
-与 restaking/LRT/ETH staking narrative 的关联
+可构成估值锚点之一（“账上资产”）
 
-主流社媒和社区讨论趋势（可附推特引用）
+5. Financial Performance & Revenue Model（财务表现与收入模型）
+5.1 收入来源
+Lido 对 staking 奖励抽取 10% 费用
 
-风险事件记录（如 2022 stETH 折价事件）
+其中 50% 分给节点运营者，50% 进入 DAO Treasury
 
-6. Competitive Landscape
-对比 Rocket Pool、Frax ETH、Swell、EtherFi 等
+5.2 年化收入
+2024 Q1：staking 总收入 ~$287M，Lido 收益 ~$28M
 
-用户体验 / 去中心化程度 / 奖励率
+年化推算：约 $110–120M，高度依赖 ETH staking 活跃度和 ETH 价格
 
-stETH Peg、可组合性对比表格
+5.3 收入增长趋势
+ETH staking 量逐年上升
 
-7. Valuation & Financials
-（建议保留这一章，即使简单）
+stETH 在 DeFi 的广泛使用增加收益潜力（AAVE、Eigenlayer）
 
-协议年化收入（ETH staking fees × cut 比例）
+但也面临 Restaking 模式分流部分收益的风险
 
-LDO FDV 与收入比
+6. Valuation & Risk Analysis（估值分析与风险识别）
+6.1 PE / EV / Revenue 指标
+LDO 当前 FDV（Fully Diluted Valuation）超 $2B
 
-Token Terminal 上的估值指标（EV/Revenue、PE-like ratio）
+PE-like ratio 高达 800–900 倍，明显高于传统 DeFi 项目（MKR、AAVE）
 
-可加一个 DCF 或 Earnings Multiple 粗估模型（如愿）
+PEG ratio 接近 0.4–0.5，表明增长能部分解释高估值
 
-8. Investment Thesis
-中长期投资理由（Lido 的稳固市场地位、restaking 叙事延续）
+6.2 DCF 粗估
+假设 ETH staking 增长 30%，ETH 价格年增长 30%
 
-关键催化剂（ETH unstaking 提速、EigenLayer 对接更多 AVS）
+折现率 40%，终值增长率 2%
 
-风险点（监管、Peg 风险、中心化质押结构）
+得出理论估值为 ~$13.96/LDO（示意）
 
-9. Conclusion
-总结观点（多头 / 中性 / 观察）
+6.3 核心风险
+治理高度集中，少数地址控制多数投票权
 
-是否值得建仓，适合哪类投资者
+法律监管不确定（尤其是美方）
 
-10. References & Data Sources
+技术路线挑战（Restaking 与 LRT）
+
+stETH 深度集中在几个协议，可能引发系统性风险
+
+7. Conclusion & Investment View（结论与投资观点）
+Lido 协议具备稳定收入、高增长特征
+
+LDO 作为治理代币尚未参与分红，估值高度依赖“未来预期”
+
+若 DAO 结构优化 + 分红机制上线，或有 re-rating 可能
+
+适合长期看好 ETH 生态和 LSD 模式的中高风险投资者
