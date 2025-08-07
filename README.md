@@ -24,13 +24,31 @@ As of mid-2025, Lido is the dominant liquid staking provider on Ethereum, accoun
 
 This scale offers strong network effects but also raises concerns about centralization, governance power, and systemic risks related to staking dominance.
 
+## 3. LDO Token Overview
 
-3. LDO Token Overview
-Token 功能（治理、激励分发）
+### 3.1 Token Utility
 
-发行量/流通量（代币经济模型）
+The LDO token serves as both a governance and incentive mechanism within the Lido protocol. It enables holders to vote on proposals governing key protocol parameters and is used to reward ecosystem contributors such as developers, stakers, and node operators.
 
-分配结构（初始分发/社区/基金会）
+### 3.2 Token Supply & Economics
+
+- **Max Supply**: 1,000,000,000 LDO  
+- **Circulating Supply**: ~880 million LDO (as of August 2025)  
+- **Inflation**: None (fixed supply)  
+- **Vesting**: Initial team and investor allocations were subject to vesting schedules.
+
+### 3.3 Token Allocation
+
+| Allocation Category     | Percentage | Amount (LDO) | Notes |
+|-------------------------|------------|--------------|-------|
+| DAO Treasury            | 36%        | 360,000,000  | Ecosystem development & incentives |
+| Early Investors         | 22%        | 220,000,000  | Vested over time |
+| Team & Founders         | 20%        | 200,000,000  | Vested gradually |
+| Node Operators          | 6.5%       | 65,000,000   | Operator incentives |
+| Liquidity Mining        | 15%        | 150,000,000  | Early liquidity programs |
+
+
+
 
 4. On-Chain Data & Protocol Metrics
 TVL（stETH 数量 + ETH 价格趋势）
