@@ -117,8 +117,9 @@ The current distribution is roughly:
 
 The 15% liquidity mining allocation was a one-time distribution during Lido’s early growth phase, rewarding LPs and early DeFi adopters. It was not PoW mining—LDO has never been mined. Most of these tokens have already been distributed and are no longer locked.
 
-Despite the broad token unlock, governance power remains concentrated in a handful of large wallets. Active voter participation is low, with most proposals decided by a small group of delegates. This introduces the classic DeFi paradox: decentralized in theory, oligarchic in practice.
+Despite the broad token unlock, governance power remains concentrated in a handful of large wallets. Active voter participation is low (only 5.7%), with most proposals decided by a small group of delegates. This introduces the classic DeFi paradox: decentralized in theory, oligarchic in practice.
 
+<img width="735" height="612" alt="image" src="https://github.com/user-attachments/assets/478f0c2b-1e7a-40cd-8ebf-d107c9b9bc74" />
 
 
 
@@ -131,18 +132,80 @@ The DAO Treasury currently holds over 100 M LDO and significant ETH/stETH reserv
 
 To date, the treasury’s primary uses have been ecosystem grants, liquidity incentives, and operational costs, but without a recurring, structured capital deployment framework. The size of the treasury is a valuation anchor for LDO, but its economic impact on token holders remains unrealized.
 
-(Insert Dune chart: DAO Treasury LDO balance over time)
+<img width="1821" height="687" alt="image" src="https://github.com/user-attachments/assets/ff2251f0-6b60-403a-ba0f-430b3bef9834" />
 
-5. Financial Performance & Revenue Model（财务表现与收入模型）
-5.1 收入来源
-Lido 对 staking 奖励抽取 10% 费用
 
-其中 50% 分给节点运营者，50% 进入 DAO Treasury
+## 5. Financial Performance & Revenue Model
+### 5.1 Protocol Income
 
-5.2 年化收入
-2024 Q1：staking 总收入 ~$287M，Lido 收益 ~$28M
+Lido generates revenue by charging a **10% fee on staking rewards** from users (primarily on Ethereum).  
+Within that 10%: 50% goes to Node Operators (validator costs) and 50% accrues to the DAO before Operating Expenses and any Liquidity Incentives are deducted.
 
-年化推算：约 $110–120M，高度依赖 ETH staking 活跃度和 ETH 价格
+<img width="483" height="525" alt="image" src="https://github.com/user-attachments/assets/29530d71-d914-4718-8a82-c618ad28bd3a" />
+
+<img width="1503" height="618" alt="image" src="https://github.com/user-attachments/assets/4894cb69-d93e-42da-b780-e71129007bf3" />
+
+**ETH vs USD views**
+- **ETH view** shows the true operating trend, driven by staked ETH, staking APR, and market share, without ETH/USD price noise.  
+- **USD view** is useful for investor framing but largely reflects ETH price movements.
+
+**Key revenue drivers**
+1. **Staked ETH volume** – more ETH staked increases the fee base  
+2. **Staking APR** – higher APR lifts revenue; structural APR decline caps growth  
+3. **Lido market share** – gains or losses directly impact the base  
+4. **Fee policy** – changes to the 10% rate or DAO/NO split affect revenue proportionally  
+5. **Cost discipline** – stable OpEx and reduced liquidity incentives support net margins  
+6. **ETH price** – impacts only USD figures, not ETH-denominated revenue
+
+Since 2023, ETH-denominated revenue has been **flat to slightly lower**, reflecting APR compression and a stable market share, while cost reductions have kept **net revenue consistently positive**.
+
+## 5.2 Reported Financials (history, unit economics, cash flows)
+
+**History — ETH view (what actually happened)**
+- Protocol income **peaked in 2023 (Ξ)** and has since been **range-bound to slightly lower in Ξ terms**. The driver is **structural APR compression** as total staked ETH grew, while Lido’s **market share stayed broadly stable**.
+- **Liquidity incentives (Ξ)**, used to bootstrap stETH liquidity in 2021–22, **declined to near-zero from late 2023 onward**, removing a major drag on net results.
+- With **OpEx relatively stable** and incentives minimal, the DAO’s **net revenue measured in Ξ has been consistently positive** through recent periods.
+- Read this section in **Ξ** to capture operating reality; the **$ series** is dominated by ETH/USD.
+
+**Unit economics (Ξ-denominated)**
+- Protocol fee (Ξ) = **Staked ETH × Staking APR × 10%**
+- DAO gross (Ξ) = Protocol fee × **50%** (the other 50% goes to Node Operators)
+- Net revenue (Ξ) = DAO gross − **Operating Expense (Ξ)** − **Liquidity Expense (Ξ)**
+- USD figures = above (Ξ) × **ETH/USD** (investor framing only)
+
+**Run-rate sensitivity (keep the current scale constant)**
+Baseline assumption for illustration: **Staked ETH ≈ 9.1M Ξ**, fee **10%**, DAO split **50%**.  
+(Replace 9.1M with the latest stETH supply if you prefer a fresher base.)
+
+**A) DAO gross (Ξ / year)**
+
+| APR | DAO gross (Ξ/yr) |
+|---:|---:|
+| 2.0% | 9,100 |
+| 2.5% | 11,375 |
+| 3.0% | 13,650 |
+| 3.5% | 15,925 |
+| 4.0% | 18,200 |
+
+**B) DAO gross (USD / year)** — applies **only** to the USD view
+
+| APR | $3k | $4k | $5k |
+|---:|---:|---:|---:|
+| 2.0% | $27.3m | $36.4m | $45.5m |
+| 2.5% | $34.1m | $45.5m | $56.9m |
+| 3.0% | $41.0m | $54.6m | $68.3m |
+| 3.5% | $47.8m | $63.7m | $79.6m |
+| 4.0% | $54.6m | $72.8m | $91.0m |
+
+> These tables show **DAO gross** before OpEx.  
+> To estimate **net revenue**, subtract your annual OpEx (Ξ) from the Ξ table, then translate to $ if needed.
+
+**Protocol P&L vs. Treasury (keep them separate)**
+- **Protocol P&L** reflects operating performance from **staking-reward fees** (incl. NO share, OpEx, and historical liquidity incentives).
+- **Treasury** is **outside** the operating P&L: its **mark-to-market** changes on LDO/ETH/stETH and any **treasury staking yield** are **other income/asset management**, **not protocol revenue**.  
+  For completeness, pair this section with a **Treasury balance/composition** chart; just don’t mix it into operating revenue.
+
+
 
 5.3 收入增长趋势
 ETH staking 量逐年上升
@@ -155,9 +218,9 @@ stETH 在 DeFi 的广泛使用增加收益潜力（AAVE、Eigenlayer）
 6.1 PE / EV / Revenue 指标
 LDO 当前 FDV（Fully Diluted Valuation）超 $2B
 
-PE-like ratio 高达 800–900 倍，明显高于传统 DeFi 项目（MKR、AAVE）
+PE-like ratio 
 
-PEG ratio 接近 0.4–0.5，表明增长能部分解释高估值
+PEG ratio 
 
 6.2 DCF 粗估
 假设 ETH staking 增长 30%，ETH 价格年增长 30%
