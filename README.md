@@ -1,13 +1,8 @@
 # Lido-research
 
-## 1. Executive Summary（摘要）
-（建议最后写，浓缩全文）
+## 1. Executive Summary
 
-简要介绍 Lido 是什么、做了什么、为什么重要
-
-强调它在 ETH 流动性质押市场的垄断地位
-
-给出你对它的估值、增长、风险、投资价值的核心判断（多空逻辑）
+()
 
 ### 2.1 Core Protocol Mechanism
 Lido Finance is the largest liquid staking provider on Ethereum, enabling anyone to stake any amount of ETH and receive stETH in return. Users bypass the technical and financial barriers of solo staking—such as operating a validator and locking 32 ETH—by depositing into Lido’s smart contract. The protocol then delegates these deposits to a set of vetted professional validators selected by the Lido DAO.
@@ -159,7 +154,7 @@ Within that 10%: 50% goes to Node Operators (validator costs) and 50% accrues to
 
 Since 2023, ETH-denominated revenue has been **flat to slightly lower**, reflecting APR compression and a stable market share, while cost reductions have kept **net revenue consistently positive**.
 
-## 5.2 Reported Financials (history, unit economics, cash flows)
+### 5.2 Reported Financials (history, unit economics, cash flows)
 
 **History — ETH view (what actually happened)**
 - Protocol income **peaked in 2023 (Ξ)** and has since been **range-bound to slightly lower in Ξ terms**. The driver is **structural APR compression** as total staked ETH grew, while Lido’s **market share stayed broadly stable**.
@@ -205,38 +200,147 @@ Baseline assumption for illustration: **Staked ETH ≈ 9.1M Ξ**, fee **10%**, D
 - **Treasury** is **outside** the operating P&L: its **mark-to-market** changes on LDO/ETH/stETH and any **treasury staking yield** are **other income/asset management**, **not protocol revenue**.  
   For completeness, pair this section with a **Treasury balance/composition** chart; just don’t mix it into operating revenue.
 
+### 5.3 Revenue Drivers & Outlook
+
+**Purpose.** Frame how protocol income could evolve (in **Ξ**), without valuing LDO yet. We anchor on the unit-economics in §5.2:  
+`DAO gross (Ξ) ∝ Staked ETH × Staking APR × (10% fee) × (50% DAO split)`.
+
+#### Core drivers
+- **Staked ETH** — growth has slowed vs. the immediate post-Shanghai phase but remains the primary base-expansion lever.  
+- **Staking APR** — structurally compresses as total staked ETH rises; the main headwind on Ξ-denominated revenue.  
+- **Lido market share** — broadly stable; could drift with DVT/permissionless modules, community staking, and the competitive/regulatory landscape.
+
+#### Upside catalysts
+- **LDO value capture** (e.g., revenue sharing, LDO staking, buybacks): would not change protocol Ξ-income, but could strengthen demand for LDO and support future fee-policy flexibility.  
+- **DVT / permissionless modules** (e.g., community staking): safer, more decentralized supply → better defensibility and potential share gains.  
+- **Restaking integration** (wstETH adopted by AVSs): deeper utility and liquidity for (w)stETH → more durable moat and activity gravity.  
+- **Fee policy optimization** (10% rate / DAO–NO split): linear impact on income if adjusted.  
+- **Regulatory relative advantage**: constraints on centralized competitors could shift share toward Lido by default.
+
+#### Downside factors
+- **Further APR compression** outpacing staked-ETH growth.  
+- **Share erosion** from LRTs, self-staking products, or centralized competitors regaining ground.  
+- **DeFi liquidity/risk events** reducing stETH usage and composability.
+
+#### Scenario framework (Ξ-denominated run-rate)
+Use the §5.2 baseline (current staked ETH; fee = 10%; DAO split = 50%). Model **multipliers** rather than point estimates:
+
+| Scenario | Staked ETH | APR | Lido share | Fee policy | Implied DAO gross (Ξ) vs. baseline |
+|---|---|---|---|---|---|
+| **Base** | Flat to +5% | 2.5–3.0% | Stable | Unchanged | ~0.95×–1.10× |
+| **Bull** | +10–15% | 3.0–3.5% | +50–100 bps | Unchanged or slight uplift | ~1.20×–1.45× |
+| **Bear** | −5% | 2.0–2.5% | −50–100 bps | Unchanged | ~0.75×–0.90× |
+
+> Reading the table: DAO gross scales roughly with **(Staked ETH × APR)**; fee rate and split are linear multipliers. To translate to USD, apply ETH/USD (for investor framing only). For **net revenue**, subtract OpEx (Ξ) and any remaining incentives.
+
+#### What to watch (KPI checklist)
+- **Staked ETH growth** (Ξ) and **APR trend**  
+- **Lido market share** vs. other LSD/LRT providers  
+- **DVT/permissionless rollout milestones** and validator set dispersion  
+- **(w)stETH usage** in DeFi and restaking AVSs  
+- **Governance on fee policy / LDO value capture**  
+- **Regulatory developments** affecting centralized vs. DAO models
 
 
-5.3 收入增长趋势
-ETH staking 量逐年上升
+## 6. Valuation & Risk Analysis
 
-stETH 在 DeFi 的广泛使用增加收益潜力（AAVE、Eigenlayer）
+> **Scope.** We value the **operating protocol** (fees from staking rewards). Treasury MTM and treasury staking yield are treated separately and **not** included in operating cash flows.
 
-但也面临 Restaking 模式分流部分收益的风险
+**Key inputs (as of Aug 8, 2025):**
+- **Staked ETH via Lido (baseline):** 8.9M Ξ (analyst assumption; update with the latest stETH supply from Dune).  
+- **Fee policy:** 10% of staking rewards; split ~50% to Node Operators (NOs), ~50% to DAO.   
+- **ETH price (valuation FX):** $4,000 (flat).   
+- **LDO price (for EV proxy):** ~$1.13 → FDV ≈ $1.13B (1.0B LDO).   
+- **Operating expenses (context):** Off-chain OpEx ~$28.6m EOY-2024; early-2024 quarterly Liquidity+OpEx ~$13.5m and trending down as incentives tapered. We model a steady-state **OpEx ≈ 7,000 Ξ/yr** (central case).   
+- **Discount rate:** 20% (mature DeFi risk).  
 
-6. Valuation & Risk Analysis（估值分析与风险识别）
-6.1 PE / EV / Revenue 指标
-LDO 当前 FDV（Fully Diluted Valuation）超 $2B
+---
 
-PE-like ratio 
+### 6.1 Multiples (EV / Revenue)
 
-PEG ratio 
+We anchor on **Protocol revenue** and **DAO gross**:
 
-6.2 DCF 粗估
-假设 ETH staking 增长 30%，ETH 价格年增长 30%
+- **Protocol revenue ($)** = Staked ETH × APR × **10% fee** × ETH/USD  
+- **DAO gross ($)** = Protocol revenue × **50%** (before OpEx)
 
-折现率 40%，终值增长率 2%
+Using **8.9M Ξ** and **ETH = $4,000**:
 
-得出理论估值为 ~$13.96/LDO（示意）
+| APR | Protocol revenue ($m) | DAO gross ($m) | **EV / Protocol rev** | **EV / DAO gross** |
+|---:|---:|---:|---:|---:|
+| 2.5% | 89.0 | 44.5 | 12.7× | 25.4× |
+| 3.0% | 106.8 | 53.4 | 10.6× | 21.2× |
+| 3.5% | 124.6 | 62.3 | 9.1× | 18.1× |
 
-6.3 核心风险
-治理高度集中，少数地址控制多数投票权
+*EV proxied by FDV ≈ $1.13B (1.0B LDO). Swap to market cap if you prefer a circulation-only equity lens.* 
 
-法律监管不确定（尤其是美方）
+---
 
-技术路线挑战（Restaking 与 LRT）
+### 6.2 DCF (Ξ → $), **operating** cash flows
 
-stETH 深度集中在几个协议，可能引发系统性风险
+**Mechanics (Ξ):**  
+Protocol fee = Staked ETH × APR × 10%  
+DAO gross = Protocol fee × 50%  
+**Net** = DAO gross − **OpEx (Ξ)**
+
+We project **5 years** and add a terminal value; **discount rate 20%**. ETH/USD is only applied at the end to get a $ view. (Treasury MTM/yield are **excluded**.)
+
+**Scenarios (start from 8.9M Ξ):**
+- **Bear:** Staked ETH CAGR **0%**; APR path **2.8% → 2.2%**; terminal growth **g=0%**  
+- **Base:** Staked ETH CAGR **10%**; APR **3.0% → 2.6%**; **g=1%**  
+- **Bull:** Staked ETH CAGR **20%**; APR **3.2% → 3.0%**; **g=2%**
+
+**Present value — DAO gross (Ξ) and $ @ $4k ETH**
+
+| Scenario | PV DAO gross (**Ξ**) | PV DAO gross (**$m**) |
+|---|---:|---:|
+| Bear | **53.7k** | **$214.6m** |
+| Base | **80.4k** | **$321.7m** |
+| Bull | **120.5k** | **$482.1m** |
+
+**Net of OpEx (Ξ and $)**  
+Assume **steady OpEx = 7,000 Ξ/yr** with 0% terminal growth:
+
+| Scenario | PV **Net** (Ξ) | PV **Net** ($m) |
+|---|---:|---:|
+| Bear | **18.7k** | **$74.6m** |
+| Base | **45.4k** | **$181.7m** |
+| Bull | **85.5k** | **$342.1m** |
+
+*Context for OpEx assumption: Off-chain OpEx ~$28.6m EOY-2024 (≈7.15k Ξ at $4k); liquidity incentives have largely wound down since late-2023, so a **~7k Ξ/yr** steady state is a reasonable central input. You can re-run net PV by ±2k Ξ to test sensitivity.* 
+
+---
+
+### 6.3 Asset anchor & governance option (cross-checks)
+
+- **Treasury anchor.** Token Terminal’s **“Treasury (net)”** is a conservative estimate that discounts non-liquid LDO and subtracts liabilities/commitments—use it as an **asset floor**, separate from operating value. Don’t mix treasury MTM into operating revenue. (See Token Terminal Lido overview.)   
+- **Governance option (optional add-on).** If revenue-sharing / LDO staking / buybacks pass, a portion of DAO gross could accrue to LDO holders. Add an option overlay:  
+  `Option value ≈ Probability × PV(distributions)` (e.g., buybacks or ETH/stETH distributions). Proposals have been discussed but not enacted at the time of writing. 
+
+---
+
+### 6.4 Sanity checks & takeaways
+
+- **EV vs. operating PV.** With **FDV ≈ $1.13B**, the **Base** PV (DAO gross, pre-OpEx) ≈ **$322m**, and **Net** ≈ **$182m**. The differential suggests today’s pricing embeds **treasury value** and a **governance/option premium** on top of operating cash flows.   
+- **Most sensitive levers:** **APR** and **staked ETH scale** (Ξ). Fee policy (10% / split) is a linear multiplier. ETH/USD only impacts the **$ translation**, not Ξ economics.  
+- **What could close the gap:** (i) tangible LDO value capture, (ii) share gains from DVT/permissionless modules, (iii) fee/split tweaks, (iv) regulatory tailwinds for DAO models.
+
+---
+
+### 6.5 Key risks
+
+- **Structural APR compression** outpacing staked-ETH growth.  
+- **Share erosion** to LRTs/self-staking or centralized competitors; adverse **regulation**.  
+- **No value capture** for LDO (revenue-sharing/buybacks fail to pass), keeping valuation tied to governance optionality.  
+- **DeFi/systemic shocks** reducing (w)stETH usage/liquidity; validator concentration or technical incidents.
+
+---
+
+**Primary sources & notes**
+- **Fee policy & DAO spend categories:** Lido docs.   
+- **Operating history / protocol income statement:** Dune *Protocol Economics* (for §5).   
+- **OpEx context:** EOY-2024 off-chain OpEx ~$28.6m; Q1-2024 Liquidity+OpEx ~$13.5m.   
+- **Market quotes:** LDO ≈ $1.13; ETH ≈ $4,046–$4,051 (Aug 8, 2025, CET). 
+
 
 7. Conclusion & Investment View（结论与投资观点）
 Lido 协议具备稳定收入、高增长特征
