@@ -38,27 +38,48 @@ Lido’s governance token, LDO, grants holders decision-making power over the pr
 
 ## 3. Market Position & Competitive Landscape
 ### 3.1 Market Share & Leadership
-Lido controls approximately 8.9–9.0 million ETH staked, representing 24–25% of Ethereum’s staking market as of August 2025. Despite falling from a peak of over 30%, Lido remains far ahead of any individual competitor. Its dominance is driven by first-mover advantage, deep liquidity, and seamless DeFi integrations.
+Lido controls approximately 8.9–9.0 million ETH staked, representing 24.5% of Ethereum’s staking market as of August 2025. Despite falling from a peak of over 30%, Lido remains far ahead of any individual competitor. Its dominance is driven by first-mover advantage, deep liquidity, and seamless DeFi integrations.
 
 That said, the trend is shifting. Community-led efforts to decentralize staking, paired with the rise of viable alternatives, have caused Lido’s relative share to slip. Nonetheless, its absolute stake volume continues to grow alongside Ethereum’s total staking base, now surpassing 36 million ETH.
 
-📊 [Insert: Ethereum staking market share pie chart – Lido vs others]
-
+<img width="1506" height="618" alt="image" src="https://github.com/user-attachments/assets/ebfdc600-64ad-4ed1-a717-cd529f9c9531" />
 
 ### 3.2 Competitor Landscape
-Coinbase (cbETH) offers a centralized staking service with a focus on retail accessibility. While cbETH is transferable and earns yield, it lacks deep DeFi integration and poses custodial risks. It holds ~2.4M ETH (~6–7% market share).
+There are two overlapping views. By entity, Lido remains the largest single staker; among centralized exchanges, Binance is the biggest block of competition by share, followed by Coinbase and Kraken. By liquid staking tokens (LSTs), however, the most substitutable challengers to stETH are Ether.fi’s eETH and Coinbase’s cbETH, with Rocket Pool’s rETH anchoring the decentralization end of the spectrum.
 
-Rocket Pool (rETH) emphasizes decentralization with hundreds of permissionless node operators. Its ~700k ETH stake (~2% share) is modest but growing. rETH is non-rebasing, DeFi-integrated, and community-driven—attracting users prioritizing decentralization over scale.
+Coinbase (cbETH). A centralized service with a liquid token. Distribution and fiat on-ramps are its superpower, and cbETH is increasingly accepted in DeFi. The trade-off is custodial exposure and slower integration velocity vs. stETH. ~2.4M ETH, ~6–7%.
 
-Ether.fi (eETH) rapidly gained ~7% share by promoting restaking and non-custodial control via NFT-based credentials. With 2.5M ETH staked, it represents the most successful challenger of 2024–2025. Its appeal lies in high yield, user sovereignty, and airdrop incentives, though questions remain about its validator decentralization.
+Binance (CEX staking). The largest single CEX competitor by entity share (≈8%+). Frictionless for in-exchange users, but limited on-chain composability and transparency compared with LST protocols. Best thought of as a mass-market “off-chain yield” channel rather than a DeFi-native substitute.
 
-Frax (frxETH/sfrxETH) employs a two-token system separating liquidity from yield. While small in market share (~0.3%), Frax has made notable design contributions and remains a favorite for DeFi-native strategies.
+Kraken (CEX staking). Institution-friendly, compliance-first staking with similar pros/cons to Binance/Coinbase custody; negligible DeFi surface area. Indirect competitive pressure via convenience and brand trust.
 
-Mantle (mETH/cmETH) entered the market with a double-yield model backed by BitDAO’s treasury. Its adoption is still early stage, appealing mostly to advanced users within Mantle’s Layer-2 ecosystem.
+Ether.fi (eETH). The breakout of 2024–2025. Non-custodial UX, restaking alignment, and incentives drove rapid share gains. Strong DeFi integrations, but validator decentralization and stacked risk from restaking remain under scrutiny. ~2.5M ETH, ~7%.
 
-Additionally, players like Binance, Kraken, and SSV Network round out the landscape. While centralized exchanges retain market share (~8%), infrastructure projects like SSV aim to decentralize validator architecture, which Lido is also exploring through its Staking Router and DVT modules.
+Rocket Pool (rETH). Permissionless node operators and a community-first ethos deliver the clearest decentralization story. Liquidity depth and absolute scale are more modest, but growth is steady. ~0.7M ETH, ~2%.
 
-📊 [Insert: Comparative table – stETH vs rETH vs cbETH vs eETH etc.]
+Frax (frxETH/sfrxETH). Clever two-token design that separates base liquidity (frxETH) from yield (sfrxETH). Small headline share (~0.3%) yet outsized mindshare among DeFi strategists.
+
+StakeWise v3 (osETH). Vault-/module-based architecture with DVT compatibility; prioritizes customizability and risk isolation. Integrations are improving; scale is still ramping.
+
+Mantle (mETH/cmETH). Treasury-backed, “double-yield” narrative inside an L2 ecosystem. Early adoption skews toward advanced users within Mantle; cross-ecosystem liquidity is the next hurdle.
+
+Infrastructure layer (indirect competition). SSV Network and Obol bring DVT to the operator stack; Figment/Kiln/Staked.us serve enterprises and protocols as professional node operators. These players shape the supply side and are as much partners as they are competitors. Lido’s Staking Router and DVT modules explicitly target this terrain.
+
+#### Comparative matrix — stETH vs key alternatives
+
+
+| Protocol | Token | Model | Validator Decentralization | DeFi Liquidity/Integrations | Restaking-Native | Scale (Aug-2025, ~) | Primary Edge | Key Risks |
+|---|---|---|---|---|---|---|---|---|
+| **Lido** | **stETH** (rebasing) | LST w/ multi-operator + Staking Router (DVT roadmap) | High (diverse operators; expanding via DVT) | **Highest** (deepest liquidity; widest integrations) | Optional via third-party | **~9.0M ETH (~24.5%)** | Network effects + liquidity depth | Share concentration; governance/coordination risk |
+| **Ether.fi** | **eETH** (non-rebasing) | LST with non-custodial UX; restaking-aligned | Mid-High (improving) | High (fast integrations) | **Yes** (core to thesis) | **~2.5M ETH (~7%)** | Yield stack + user sovereignty narrative | Stacked risk from restaking; validator dispersion questions |
+| **Coinbase** | **cbETH** (non-rebasing) | CEX-backed LST | Mid (custodial) | Mid-High (brand + growing DeFi support) | Limited/indirect | **~2.4M ETH (~6–7%)** | Distribution, compliance credibility | Custodial exposure; slower feature velocity |
+| **Rocket Pool** | **rETH** (non-rebasing) | Permissionless node set | **Highest** among majors | Mid (solid but thinner than stETH) | Limited | **~0.7M ETH (~2%)** | Decentralization purity | Liquidity/scale constraints |
+| **StakeWise v3** | **osETH** (non-rebasing) | Modular vaults + DVT-ready | Mid-High | Mid | Optional | Growing (sub-scale) | Customizability; risk isolation | Smaller network effects; integration ramp |
+| **Frax** | **frxETH / sfrxETH** | Two-token (liquidity vs. yield) | Mid | Mid-High (strategy-friendly) | Optional | Small (~0.3%) | Design flexibility; DeFi strategy fit | Complexity; limited scale today |
+| **Binance** | (CEX staking) | Custodial staking | Low | Low–Mid (on-chain weak) | No | **~8% by entity** | UX simplicity; massive user base | Custodial/venue risk; limited composability |
+| **Kraken** | (CEX staking) | Custodial staking | Low | Low | No | **~6.5% by entity** | Compliance/institutional reach | Same as above |
+
+
 
 3.3 Decentralization, Regulation, and Moat
 Lido’s dominance has drawn criticism over centralization. The DAO controls validator selection (currently ~30 operators), and large LDO holders exert considerable influence over governance. To address this, Lido has introduced dual governance (allowing stETH holders to veto proposals) and is testing DVT systems for more distributed validator control.
