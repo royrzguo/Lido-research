@@ -16,7 +16,7 @@ In return, users receive stETH, a rebasing token minted 1:1 with the deposited E
 
 For DeFi users and protocols that require fixed-balance assets, Lido offers wstETH, a wrapped, non-rebasing version of stETH. wstETH reflects rewards through an increasing exchange rate against ETH. This design gives Lido the flexibility to serve both casual ETH holders and sophisticated DeFi participants.
 
-<img width="3532" height="1919" alt="image" src="https://github.com/user-attachments/assets/7dadacf9-7a1e-4067-b1a4-ee693d2307b3" />
+<img width="1920" height="950" alt="image" src="https://github.com/user-attachments/assets/52c87ca0-5ba8-418e-8a0d-369c246269e9" />
 
 
 ### 2.2 stETH, Composability, and DeFi Adoption
