@@ -16,7 +16,8 @@ In return, users receive stETH, a rebasing token minted 1:1 with the deposited E
 
 For DeFi users and protocols that require fixed-balance assets, Lido offers wstETH, a wrapped, non-rebasing version of stETH. wstETH reflects rewards through an increasing exchange rate against ETH. This design gives Lido the flexibility to serve both casual ETH holders and sophisticated DeFi participants.
 
-📊 [Insert visual: ETH → stETH / wstETH flow diagram]
+<img width="3532" height="1919" alt="image" src="https://github.com/user-attachments/assets/7dadacf9-7a1e-4067-b1a4-ee693d2307b3" />
+
 
 ### 2.2 stETH, Composability, and DeFi Adoption
 One of Lido’s defining strengths lies in the broad composability of stETH and wstETH within the Ethereum DeFi ecosystem. These tokens are accepted across over 35 protocols as of mid-2025, ranging from lending markets to DEXs, structured products, and Layer-2 networks.
@@ -32,7 +33,8 @@ Reward distribution differs by token: stETH auto-compounds by increasing balance
 
 Lido’s governance token, LDO, grants holders decision-making power over the protocol. Via Snapshot, holders can vote on changes such as validator onboarding, treasury allocation, and parameter tuning. However, LDO currently carries no direct claim on revenue—all rewards flow to the DAO. While revenue-sharing proposals have been discussed, no model is live yet as of August 2025.
 
-📊 [Insert: LDO supply, governance activity, or protocol fee flow chart]
+<img width="959" height="533" alt="image" src="https://github.com/user-attachments/assets/b1cb39be-3fef-4081-bb0d-9ab088956ea5" />
+
 
 ## 3. Market Position & Competitive Landscape
 ### 3.1 Market Share & Leadership
