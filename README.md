@@ -38,9 +38,7 @@ Lido’s governance token, LDO, grants holders decision-making power over the pr
 
 ## 3. Market Position & Competitive Landscape
 ### 3.1 Market Share & Leadership
-Lido controls approximately 8.9–9.0 million ETH staked, representing 24.5% of Ethereum’s staking market as of August 2025. Despite falling from a peak of over 30%, Lido remains far ahead of any individual competitor. Its dominance is driven by first-mover advantage, deep liquidity, and seamless DeFi integrations.
-
-That said, the trend is shifting. Community-led efforts to decentralize staking, paired with the rise of viable alternatives, have caused Lido’s relative share to slip. Nonetheless, its absolute stake volume continues to grow alongside Ethereum’s total staking base, now surpassing 36 million ETH.
+Lido remains the largest single staking entity, securing ~8.9M ETH (~24.5% as of Aug 2025). But while Ethereum’s overall staking base has continued to expand (now >36M ETH), Lido’s deposits have not grown at the same pace, so its market share has drifted down from a >30% peak. The difference has been absorbed by rising alternatives—most visibly eETH/cbETH on the token side and CEX custody—alongside community efforts to diversify validators. Lido still leads on liquidity depth and DeFi integrations, yet the moat is being diluted at the margin as share keeps sliding even with absolute stake roughly flat-to-up.
 
 <img width="1506" height="618" alt="image" src="https://github.com/user-attachments/assets/ebfdc600-64ad-4ed1-a717-cd529f9c9531" />
 
@@ -80,35 +78,60 @@ There are two overlapping views. By entity, Lido remains the largest single stak
 | **Frax** | **frxETH / sfrxETH** | **~0.1M ETH (~0.3%)** | Two-token (liquidity vs. yield) | Mid | Mid–High (strategy-friendly) | Optional | Design flexibility; DeFi strategy fit | Complexity; limited scale today |
 
 
-3.3 Decentralization, Regulation, and Moat
+### 3.3 Decentralization, Regulation, and Moat
 Lido’s dominance has drawn criticism over centralization. The DAO controls validator selection (currently ~30 operators), and large LDO holders exert considerable influence over governance. To address this, Lido has introduced dual governance (allowing stETH holders to veto proposals) and is testing DVT systems for more distributed validator control.
 
 From a regulatory standpoint, the outlook has improved. In August 2025, the SEC clarified that liquid staking tokens like stETH and rETH are not securities, recognizing them as technical staking receipts rather than investment contracts. This has removed a significant overhang from U.S. market participants.
 
 Despite this, governance tokens like LDO are still under observation. While Lido does not distribute revenue to LDO holders, future fee-sharing mechanisms could raise regulatory questions. For now, Lido’s DAO remains legally unincorporated, governed by tokenholders and executed via multisig.
 
-Finally, Lido’s moat remains strong. Its liquidity depth, early integrations, and DAO treasury continue to give it an edge. stETH is the default in many DeFi applications, and Curve’s stETH/ETH pool alone regularly handles massive volumes with minimal slippage. Competitors may offer better decentralization or yields, but replicating Lido’s ecosystem entrenchment will take time.
+Finally, Lido’s moat is strong yet eroding. The protocol’s early mover advantage has created unmatched liquidity and integrations; stETH/wstETH is still the base asset in lending markets and the deepest ETH pair on Curve and Balancer. The DAO also controls a substantial treasury to incentivize new integrations. However, competitors are gaining ground: Ether.fi, Rocket Pool and cbETH are all expanding, and Lido’s share has steadily declined from >30% to ~24.5%. Decentralization modules have yet to materially boost Lido’s own stake inflows. Replicating Lido’s ecosystem entrenchment will take time, but the network effects are no longer uncontested—improving decentralization and defending liquidity depth are now as important as growth itself.
+
+## 4. Tokenomics & Distribution
+### 4.1 Supply Mechanism – Fixed Cap, Blurry Value Accrual
+LDO has a fixed total supply of 1 billion tokens, with approximately 890 million already in circulation. There is no ongoing issuance, no programmed burn, and no formal buyback mechanism. In other words, while supply is capped, there is also no direct demand-side mechanism—such as revenue sharing, staking rewards, or fee discounts—to anchor long-term value.
+
+This leaves LDO’s price largely dependent on governance utility and market speculation about future protocol growth, rather than any intrinsic yield.
+Proposals to change this have emerged repeatedly:
+
+- Feb 2024 — “Activate Lido Protocol Governance with Revenue Share Staking” proposed directing 20–50% of protocol revenue to LDO stakers, with weekly buyback-and-distribution and a six-month vesting period.
+
+- Jun 2025 — “Enable LDO Staking with Protocol Revenue Sharing” suggested giving stakers 20–30% of revenue, paid in ETH, stETH, or via LDO buybacks.
+
+Both gained attention but have not been implemented, due to concerns over treasury depletion and protocol sustainability.
+
+<img width="1407" height="795" alt="image" src="https://github.com/user-attachments/assets/98843306-c0b7-40ab-a8ca-df866686ee19" />
+
+### 4.2 Initial Allocation vs Current Structure – Early Concentration, Limited Governance Reach
+Initial allocation (2020 launch):
+- DAO Treasury — 36%
+- Early Investors — 22%
+- Team — 20%
+- Node Operators — 6.5%
+- Liquidity Mining Incentives — 15%
+
+The current distribution is roughly:
+- Team & Validators — 40%
+- Investors — 34.6%
+- DAO Treasury — 25.3% (~253.5 M LDO)
+
+The 15% liquidity mining allocation was a one-time distribution during Lido’s early growth phase, rewarding LPs and early DeFi adopters. It was not PoW mining—LDO has never been mined. Most of these tokens have already been distributed and are no longer locked.
+
+Despite the broad token unlock, governance power remains concentrated in a handful of large wallets. Active voter participation is low, with most proposals decided by a small group of delegates. This introduces the classic DeFi paradox: decentralized in theory, oligarchic in practice.
 
 
-4. Tokenomics & Distribution（代币经济模型与分配结构）
-4.1 供应机制
-固定总量：1,000,000,000 LDO
 
-当前流通：约 890–900M（90%），无新锁仓计划
 
-没有增发机制（通缩或回购机制未明确）
+### 4.3 DAO Treasury – Well-Funded, Under-Leveraged
+The DAO Treasury currently holds over 100 M LDO and significant ETH/stETH reserves, valued at an estimated $400–480 M depending on market conditions. Historically, treasury usage has been cautious and episodic:
+- 2021 — Proposal to sell 100 M LDO to strategic partners like Paradigm in exchange for ETH, with gradual unlocks, to onboard long-term ecosystem allies.
+- 2023 — Multiple motions to diversify holdings into stablecoins to secure multi-year operational runway.
+- 2023 — Discussion to create a Treasury Management Committee to formalize spending policy.
+- 2024–2025 — Revenue-sharing proposals (see 4.1) debated but not enacted.
 
-4.2 初始分配 vs 当前结构
-初始分配：DAO Treasury（36%）、早期投资人（22%）、团队（20%）、节点（6.5%）、挖矿激励（15%）
+To date, the treasury’s primary uses have been ecosystem grants, liquidity incentives, and operational costs, but without a recurring, structured capital deployment framework. The size of the treasury is a valuation anchor for LDO, but its economic impact on token holders remains unrealized.
 
-当前结构（参考 Dune）：大部分已解锁，Treasury 持币仍占比较高；治理投票活跃地址少
-
-4.3 DAO Treasury 管理现状
-Treasury 地址仍持有约 100M+ LDO
-
-用于未来激励、流动性支持、生态资助、运营成本
-
-可构成估值锚点之一（“账上资产”）
+(Insert Dune chart: DAO Treasury LDO balance over time)
 
 5. Financial Performance & Revenue Model（财务表现与收入模型）
 5.1 收入来源
