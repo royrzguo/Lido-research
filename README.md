@@ -4,11 +4,108 @@ Lido remains the largest player in Ethereum staking, but its leadership is facin
 
 This leads us to three key questions:
 1. **Can Lido sustain its dominance** in the staking market as competition intensifies?
-2. **Will V3 be enough to shift the current trend**, or will users continue to move to alternatives?
+2. **Will V3(stVaults) be enough to shift the current trend**, or will users continue to move to alternatives?
 3. **Does LDO offer upside at today’s price**, given its stable but slowing core business?
 
 Our view: **there is limited reason to buy LDO based on current fundamentals**, but the **governance changes** under discussion and the **launch of V3** could act as meaningful catalysts that reshape its outlook and valuation.
 
+
+## 1. How Did Lido Lose Momentum?  
+
+### 1.1 Market Share at a Three-Year Low  
+Lido’s share of staked ETH has **fallen to ~24.4%, its lowest point since 2022**. Importantly, this decline has occurred **despite the overall staking ratio on Ethereum continuing to climb**. The result is that Lido has consistently seen **net withdrawals**, indicating that while total staking demand is rising, **new inflows are increasingly bypassing Lido**. In effect, Ethereum staking is expanding, but Lido’s relative position is shrinking.  
+
+<img width="1506" height="618" alt="image" src="https://github.com/user-attachments/assets/ebfdc600-64ad-4ed1-a717-cd529f9c9531" />
+
+### 1.2 Why Lido Is Losing Share  
+1) **Incentives that don’t attract new deposits.**  
+   Lido’s Core Pool remains simple and low-friction, but its **base APY has steadily compressed** in line with network yields. The issue is not only lower rates—competitors face the same trend—but the **added layers of incentives from LRTs** (points, airdrops, restaking rewards), which have proven far more effective at pulling incremental capital in 2024–2025.  
+<img width="865" height="724" alt="image" src="https://github.com/user-attachments/assets/16fbd268-e9bc-49b4-a10e-e930e31e0980" />
+<img width="865" height="721" alt="image" src="https://github.com/user-attachments/assets/7230eee4-881a-4a9a-b12a-ddef1ae18751" />
+
+2) **CEXs capture mainstream flows.**  
+   Platforms like **Coinbase, Binance, and Kraken** offer custodial staking with one click, a far easier entry point for new retail participants. As a result, much of the fresh staking demand flows directly to CEX solutions, bypassing Lido and other on-chain protocols.  
+
+3) **A single, undifferentiated product.**  
+   V2 (Core Pool) provides only one standardized risk/return option. For retail users, this means limited differentiation; for institutions, there is **no customizable entry**—such as validator selection, fee or MEV split preferences, or risk insurance. This lack of segmentation has left Lido less competitive, particularly as rivals experiment with more flexible structures.  
+
+## 2. Lido’s Core Strengths (Why It’s Still #1)  
+
+Despite competitive pressure, Lido continues to dominate Ethereum staking because of structural advantages that are difficult to displace:  
+
+1) **stETH / wstETH as DeFi’s base layer.**  
+   Lido’s liquid staking token is the **most widely integrated asset across DeFi**—used as collateral in lending protocols (Aave, Maker, Compound), traded with deep liquidity on DEXs (Curve, Uniswap), and embedded in derivatives platforms (GMX, Lyra, Pendle). This breadth creates a **network effect** that competitors cannot easily replicate.  
+
+2) **Sticky institutional and whale users.**  
+   Early adopters—including large DAOs (Aave, Curve, Maker) and funds—hold significant stETH allocations. For these players, **switching costs are high** due to collateral integrations, governance frameworks, and liquidity constraints. This “stickiness” stabilizes Lido’s base even as new inflows decline.  
+
+3) **Proven reliability.**  
+   Since launch, Lido has operated with **no major slashing events or security failures**, building confidence in its validator set and infrastructure. In staking—where principal security is paramount—this **track record is a competitive moat**.  
+
+4) **Stable protocol economics.**  
+   Lido charges a **10% fee on staking rewards**, shared between node operators and the DAO treasury. Despite shrinking market share, the **absolute ETH staked remains large**, ensuring the DAO continues to generate sustainable revenues that fund contributors, audits, and development.  
+
+
+## 3. V3 and the Next Stage: From LSD → Infra  
+
+Lido’s upcoming **V3 upgrade** represents more than a product iteration; it signals a **strategic repositioning** of the protocol from a single-product LSD leader to a broader **staking infrastructure platform**.  
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c325bd0b-72b9-473e-83c1-41231c70123b" />
+
+1) **stVaults architecture.**  
+   At the core of V3 are **modular vaults (“stVaults”)**, designed to allow flexible strategies: new validator sets, potential custom yield structures, and future integration with **EigenLayer restaking**. This modularity contrasts with today’s monolithic Core Pool and could expand Lido beyond ETH staking.  
+
+2) **Platform shift.**  
+   With V3, Lido is no longer only the **LSD market leader**. Instead, it evolves into an **infrastructure layer for staking**, enabling different products, validator configurations, and potentially multi-chain or restaking options. This positions Lido as a **platform for developers and institutions**, not just a staking service.  
+
+3) **Competitive positioning.**  
+   By entering the **staking infra race**, Lido moves into direct competition with **EigenLayer** (restaking), **Frax** (modular LSD + DeFi integration), and emerging **LRT protocols** (Swell, EtherFi, Renzo). If successful, Lido V3 could **defend its base while capturing new demand** from restaking and institutional clients.  
+
+## 4. Tokenomics and Governance Outlook
+
+### 4.1 Revenue model (how value is created)
+Lido charges a **10% fee on staking rewards**, split **50/50** between node operators and the Lido DAO treasury (i.e., ~5% of gross staking rewards accrue to the DAO). The fee can be changed only via a DAO vote. 
+
+<img width="959" height="533" alt="image" src="https://github.com/user-attachments/assets/b1cb39be-3fef-4081-bb0d-9ab088956ea5" />
+
+### 4.2 Financial profile (run-rate, cash flow stance)
+Despite share loss, Lido remains **cash-flow positive** because the absolute base of staked ETH is large and the take rate is structural. Public dashboards (Dune / Token Terminal) track the protocol’s fee income and trends over time. 
+
+<img width="1503" height="618" alt="image" src="https://github.com/user-attachments/assets/4894cb69-d93e-42da-b780-e71129007bf3" />
+
+**ETH vs USD views**
+- **ETH view** shows the true operating trend, driven by staked ETH, staking APR, and market share, without ETH/USD price noise.  
+- **USD view** is useful for investor framing but largely reflects ETH price movements.
+
+### 4.3 DAO Treasury – Well-Funded, Under-Leveraged
+The DAO Treasury currently holds over 100 M LDO and significant ETH/stETH reserves, valued at an estimated $400–480 M depending on market conditions. Historically, treasury usage has been cautious and episodic:
+- 2021 — Proposal to sell 100 M LDO to strategic partners like Paradigm in exchange for ETH, with gradual unlocks, to onboard long-term ecosystem allies.
+- 2023 — Multiple motions to diversify holdings into stablecoins to secure multi-year operational runway.
+- 2023 — Discussion to create a Treasury Management Committee to formalize spending policy.
+- 2024–2025 — Revenue-sharing proposals (see 4.1) debated but not enacted.
+
+To date, the treasury’s primary uses have been ecosystem grants, liquidity incentives, and operational costs, but without a recurring, structured capital deployment framework. The size of the treasury is a valuation anchor for LDO, but its economic impact on token holders remains unrealized.
+
+<img width="1821" height="687" alt="image" src="https://github.com/user-attachments/assets/ff2251f0-6b60-403a-ba0f-430b3bef9834" />
+
+### 4.3 Valuation (where LDO trades vs. cash earnings)
+- **LDO market metrics (illustrative, Aug 2025):** price ~$1.3–1.4; **mkt cap ≈ $1.2–1.3B; FDV ≈ $1.4B**. :contentReference[oaicite:4]{index=4}
+- **Implied multiples (to DAO revenue):**  
+  - On **$61M** (APR ~3.0%): **FDV / Rev ≈ 22.8×**  
+  - On **$71.6M** (APR ~3.5%): **≈ 19.6×**  
+  - On **$82M** (APR ~4.0%): **≈ 17.1×**  
+  (Mechanically derived from the run-rate band above.)
+
+For context/comps, Token Terminal provides peer tables for DeFi “cash-flow protocols” (e.g., GMX, dYdX) if you want to benchmark Lido’s multiple directly against others. :contentReference[oaicite:5]{index=5}
+
+### 4.4 Governance: **two separate conversations**
+
+**(A) Dual governance (risk-mitigation / control alignment).**  
+- Lido has advanced a **dual-governance** framework that gives **stETH holders** additional safeguards (e.g., **veto signaling / rage-quit-style** protections) alongside LDO governance—intended to align stakers and token holders and de-risk unilateral changes. Active work and LIP-28 discussions are public; a minor DG weakness disclosure in July 2025 notes a fix scheduled via on-chain voting.  
+  :contentReference[oaicite:6]{index=6}
+
+**(B) Value-accrual to LDO (buybacks / revenue sharing).**  
+- **Today:** **LDO does not distribute cash** (no buybacks/dividends implemented).  
+- **History / current debate:** There have been community proposals to **introduce LDO staking with protocol revenue sharing** and separate proposals for **dynamic LDO buybacks** funded by treasury inflows; these are **proposals under discussion**, not enacted policy. If adopted, such changes could **improve LDO’s payoff linkage** to protocol cash flows and act as a **valuation catalyst**. :contentReference[oaicite:7]{index=7}
 
 
 
@@ -45,7 +142,6 @@ Lido’s governance token, LDO, grants holders decision-making power over the pr
 ### 3.1 Market Share & Leadership
 Lido remains the largest single staking entity, securing ~8.9M ETH (~24.5% as of Aug 2025). But while Ethereum’s overall staking base has continued to expand (now >36M ETH), Lido’s deposits have not grown at the same pace, so its market share has drifted down from a >30% peak. The difference has been absorbed by rising alternatives—most visibly eETH/cbETH on the token side and CEX custody—alongside community efforts to diversify validators. Lido still leads on liquidity depth and DeFi integrations, yet the moat is being diluted at the margin as share keeps sliding even with absolute stake roughly flat-to-up.
 
-<img width="1506" height="618" alt="image" src="https://github.com/user-attachments/assets/ebfdc600-64ad-4ed1-a717-cd529f9c9531" />
 
 ### 3.2 Competitor Landscape
 There are two overlapping views. By entity, Lido remains the largest single staker; among centralized exchanges, Binance is the biggest block of competition by share, followed by Coinbase and Kraken. By liquid staking tokens (LSTs), however, the most substitutable challengers to stETH are Ether.fi’s eETH and Coinbase’s cbETH, with Rocket Pool’s rETH anchoring the decentralization end of the spectrum.
