@@ -97,9 +97,9 @@ To date, the treasury’s primary uses have been ecosystem grants, liquidity inc
 
 ### 4.5 Relative Valuation: Why Infra Transition Matters
 
-<img width="692" height="564" alt="image" src="https://github.com/user-attachments/assets/1dd46f89-a997-41b3-8c1f-7475db724b21" />
+<img width="346" height="282" alt="image" src="https://github.com/user-attachments/assets/1dd46f89-a997-41b3-8c1f-7475db724b21" />
 
-<img width="1359" height="590" alt="image" src="https://github.com/user-attachments/assets/0d323b74-ee3b-414d-9ebf-2afcf8fd6878" />
+<img width="680" height="282" alt="image" src="https://github.com/user-attachments/assets/0d323b74-ee3b-414d-9ebf-2afcf8fd6878" />
 
 
 While Lido remains the largest liquid staking protocol by TVL, market valuations suggest room for rerating. For example, Ether.fi’s FDV ($1.1B) has approached Lido’s FDV ($1.4B) despite far smaller assets staked. Similarly, the liquid staking sector as a whole ($8.3B FDV) trades at much higher multiples relative to Lido’s share.
