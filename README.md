@@ -1,9 +1,19 @@
-# Lido-research
+# Lido at a Crossroads: From LSD Leader to Staking Infrastructure
 
-## 1. Executive Summary
+Lido remains the largest player in Ethereum staking, but its leadership is facing clear challenges. While Ethereum’s overall staking ratio continues to rise, **Lido has not captured the new inflows** and has recently seen periods of net outflow. At the same time, **LDO has underperformed ETH sharply**, now trading at less than one-fifth of its initial relative value. Even though **stETH is still one of the most important base assets in DeFi**, competition from CEX staking and new LRT protocols is putting pressure on its position.
 
-()
+This leads us to three key questions:
+1. **Can Lido sustain its dominance** in the staking market as competition intensifies?
+2. **Will V3 be enough to shift the current trend**, or will users continue to move to alternatives?
+3. **Does LDO offer upside at today’s price**, given its stable but slowing core business?
 
+Our view: **there is limited reason to buy LDO based on current fundamentals**, but the **governance changes** under discussion and the **launch of V3** could act as meaningful catalysts that reshape its outlook and valuation.
+
+
+
+
+
+## 2
 ### 2.1 Core Protocol Mechanism
 Lido Finance is the largest liquid staking provider on Ethereum, enabling anyone to stake any amount of ETH and receive stETH in return. Users bypass the technical and financial barriers of solo staking—such as operating a validator and locking 32 ETH—by depositing into Lido’s smart contract. The protocol then delegates these deposits to a set of vetted professional validators selected by the Lido DAO.
 
