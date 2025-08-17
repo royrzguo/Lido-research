@@ -88,10 +88,10 @@ To date, the treasury’s primary uses have been ecosystem grants, liquidity inc
 <img width="914" height="433" alt="image" src="https://github.com/user-attachments/assets/87d3d068-dba0-4906-afbf-40eff4e0432e" />
 
 ### 4.4 Governance Innovation as a Future Catalyst
-**(A) Dual governance (risk-mitigation / control alignment).**  
+1) **Dual governance (risk-mitigation / control alignment).**  
 - Lido has advanced a **dual-governance** framework that gives **stETH holders** additional safeguards (e.g., **veto signaling / rage-quit-style** protections) alongside LDO governance—intended to align stakers and token holders and de-risk unilateral changes. Active work and LIP-28 discussions are public; a minor DG weakness disclosure in July 2025 notes a fix scheduled via on-chain voting.  
 
-**(B) Value-accrual to LDO (buybacks / revenue sharing).**  
+2) **Value-accrual to LDO (buybacks / revenue sharing).**  
 - **Today:** **LDO does not distribute cash** (no buybacks/dividends implemented).  
 - **History / current debate:** There have been community proposals to **introduce LDO staking with protocol revenue sharing** and separate proposals for **dynamic LDO buybacks** funded by treasury inflows; these are **proposals under discussion**, not enacted policy. If adopted, such changes could **improve LDO’s payoff linkage** to protocol cash flows and act as a **valuation catalyst**. :contentReference[oaicite:7]{index=7}
 
@@ -107,31 +107,26 @@ While Lido remains the largest liquid staking protocol by TVL, market valuations
 This gap underscores the market premium placed on “infrastructure” narratives (e.g., modular restaking, EigenLayer integration). If Lido successfully pivots from a pure LSD leader to a broader staking infrastructure platform (V3), its valuation multiple could expand significantly, aligning more with growth-oriented peers.
 
 
-## 5. Risk Factors
-
 Lido’s long-term success hinges on several critical uncertainties. Here are the primary risks to watch:
 
-1) **Escalating Competition & Transformation Risk**
-- **Competitive erosion** from LRT (e.g., Ether.fi, Swell) and CEX staking solutions. These alternatives offer boost returns or easier UX, which may continue to siphon incremental deposits from Lido.  
-- **V3 execution risk**: The stVaults modular architecture must be delivered effectively. Any delays or underperformance could expose Lido to further market share loss and sentiment erosion.
+1) **Competitive Pressure & Execution Risk**
+- New LRTs (Ether.fi, Swell, Renzo) and CEX staking continue to attract incremental deposits through boosted yields and simpler UX.
+- V3 (stVaults) must deliver on its modular architecture; delays or weak adoption would risk further erosion of market share.
 
-2) **Regulatory Ambiguity & Legal Liability**
-- The **SEC has recently clarified** that non-custodial liquid staking receipt tokens (e.g., stETH) *do not* constitute securities, providing crucial legitimacy to protocols like Lido.
-- However, **regulatory uncertainty remains**. Key dissenters within the SEC have criticized the guidance, calling it vague and potentially reversible.
-- Historic legal precedents also expose DAO tokenholders to potential liability: a US federal court recently ruled that **Lido DAO could be treated as a general partnership**, making its backers legally liable in securities-related claims.
+2) **Regulatory & Legal Uncertainty**
+- Recent SEC guidance suggested LSTs like stETH are not securities, a positive signal, though dissenters and prior legal precedent leave DAO liability an unresolved risk.
+- In Europe, MiCA does not yet cover staking or DeFi primitives, creating uncertainty for institutional adoption and compliance.
 
-3) **EU Regulation & MiCA Scope Gaps**
-- The EU’s new **MiCA framework** does not yet address staking or DeFi primitives. Early iterations appear to limit innovation by excluding yield-bearing services.
-- This may delay or restrict Lido’s access and adoption in European markets, especially for institutional or regulated end users.
+3) **Governance & Tokenomics Delivery**
+- Value-accrual mechanisms (buybacks, revenue sharing) remain proposals, not policy. Without concrete changes, LDO’s valuation could continue to lag peers despite treasury strength.
 
-## 6. Conclusion & Outlook  
+## 6. Conclusion & Outlook: From Fading LST to Potential Infra Re-Rating 
 
-The market largely views Lido today as a **declining liquid staking leader**, but this narrative may be incomplete. The **governance reforms under discussion** and the **upcoming V3 launch** could reposition Lido from a single-product LSD into a **broader staking infrastructure platform**, opening the door for a potential market re-rating.
+The market largely views Lido today as a **declining liquid staking leader**, but that narrative may underestimate its catalysts. The **upcoming V3 transition** and ongoing **governance reforms** have the potential to reposition Lido as a **broader staking infrastructure platform**, not just a single-product protocol.
 
-Going forward, investors should pay particular attention to:  
-- **Adoption and execution of V3 (stVaults):** whether Lido can reposition itself from a single-product LSD leader to a broader staking infrastructure platform.  
-- **Governance and tokenomics changes:** concrete progress on value-accrual mechanisms (e.g., revenue sharing, buybacks) that could enhance LDO’s linkage to protocol success.  
-- **Competitive pressure from CEXs and LRTs:** whether Lido can stabilize or regain market share amid intensifying alternatives.  
-- **Regulatory clarity:** how evolving SEC and EU guidance on staking will affect institutional participation and Lido DAO liability.  
+For investors, the debate comes down to whether Lido can:
+- **Execute V3 successfully** to expand beyond Core Pool and capture restaking or institutional demand,
+- **Translate governance innovation into tokenholder value**, and
+- **Stabilize share against CEXs and fast-moving LRTs.**
 
-**Bottom line:** Lido is at a crossroads—its core remains strong, but its future valuation hinges on **successful infra transition and governance evolution**. These will determine whether LDO continues to drift as a utility token or re-rates as a true staking infrastructure play.  
+**Bottom line:** Lido’s base remains strong, but its future valuation hinges on execution. If the infra pivot and governance reforms materialize, **LDO could see a meaningful re-rating from a “fading LST” story into an “infra platform” growth story**.
