@@ -7,7 +7,7 @@ This leads us to three key questions:
 2. **Will V3(stVaults) be enough to shift the current trend**, or will users continue to move to alternatives?
 3. **Does LDO offer upside at today’s price**, given its stable but slowing core business?
 
-**Investing view**: there is limited reason to buy LDO based on current fundamentals, but the **governance changes** under discussion and the **launch of V3** could act as meaningful catalysts that reshape its outlook and valuation.
+**Investing view**: Though widely seen as a fading LST story, Lido’s **governance changes** and **V3 infra transition** could redefine its role in the staking ecosystem—unlocking **overlooked upside as the market revalues** its position.
 
 
 ## 1. How Did Lido Lose Momentum?  
@@ -126,7 +126,7 @@ Lido’s long-term success hinges on several critical uncertainties. Here are th
 
 ## 6. Conclusion & Outlook  
 
-**there is limited reason to buy LDO based on current fundamentals**, but the **governance reforms under discussion** and the **upcoming V3 launch** could prove to be meaningful catalysts that reshape both protocol dynamics and token valuation.  
+The market largely views Lido today as a **declining liquid staking leader**, but this narrative may be incomplete. The **governance reforms under discussion** and the **upcoming V3 launch** could reposition Lido from a single-product LSD into a **broader staking infrastructure platform**, opening the door for a potential market re-rating.
 
 Going forward, investors should pay particular attention to:  
 - **Adoption and execution of V3 (stVaults):** whether Lido can reposition itself from a single-product LSD leader to a broader staking infrastructure platform.  
